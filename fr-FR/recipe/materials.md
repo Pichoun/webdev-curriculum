@@ -1,18 +1,18 @@
 ---
-title: Recipe - Materials
+title: Recette - Supports
 layout: project-materials
 project-resources:
   - url: recipe-project-resources.zip
     type: file
-    description: .zip file containing all project resources
+    description: fichier .zip avec toutes les ressources du projet
   - url: http://jumpto.cc/trinket-template
     type: link
     text: jumpto.cc/trinket-template
-    description: Online Trinket template
+    description: Modèle Trinket en ligne
   - url: http://jumpto.cc/trinket-blank
     type: link
     text: jumpto.cc/trinket-blank
-    description: Online blank Trinket
+    description: Trinket vierge en ligne
   - url: template/index.html
     type: file
   - url: template/style.css
@@ -20,15 +20,15 @@ project-resources:
 volunteer-resources:
   - url: recipe-volunteer-resources.zip
     type: file
-    description: .zip file containing all completed project resources
+    description: fichier .zip avec toutes les ressources du projet
   - url: https://trinket.io/html/c0fd9b40cd
     type: link
     text: trinket.io/html/c0fd9b40cd
-    description: Online completed Trinket project
+    description: Projet Trinket finalisé en ligne
   - url: recipe-finished/index.html
     type: file
   - url: recipe-finished/style.css
-    type: flie
+    type: file
   - url: recipe-finished/banana.png
     type: image
 ---

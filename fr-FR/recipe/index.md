@@ -7,119 +7,119 @@ notes: "Recipe - notes.md"
 
 # Introduction { .intro}
 
-In this project, you’ll learn how to create a webpage for your favourite recipe.
+Dans ce projet, vous allez apprendre à créer une page web pour votre recette préférée.
 
-![screenshot](images/recipe-final.png)
+![capture d'écran](images/recipe-final.png)
 
-# Step 1: Decide on a recipe { .activity}
+# Étape 1: Choisir votre recette { .activity}
 
-Before you get coding, you’ll need to decide on a recipe.
+Avant de commencer à coder, vous devez choisir votre recette.
 
-## Activity Checklist { .check}
+## Liste de contrôle d'Activité { .check}
 
-+ Think about a recipe you want to share with your friends. It could be:
-	+ A recipe you found online;
-	+ Your favourite meal;
-	+ Something you made up!
++ Pensez à une recette que vous voulez partager avec vos amis. Ça peut être :
+	+ Une recette que vous avez trouvée en ligne;
+	+ Votre plat préféré;
+	+ Quelque chose que vous avez inventée !
 
-The example recipe you’ll see in this project is for a banana milkshake. You can copy this recipe if you can’t find one of your own.
+L'exemple que vous retrouvez dans ce projet est pour faire un milk-shake à la banane. Vous pouvez reprendre cette recette si vous ne trouvez pas votre propre recette.
 
-# Step 2: Ingredients { .activity}
+# Étape 2: Ingrédients { .activity}
 
-Let’s list the ingredients that are needed for your recipe.
+Créeons une liste des ingrédients nécessaires pour suivre cette recette.
 
-## Activity Checklist { .check}
+## Liste de contrôle d'Activité { .check}
 
-+ Open this template trinket: [jumpto.cc/html-template](http://jumpto.cc/html-template).
++ Ouvrir ce modèle trinket : [jumpto.cc/html-template](http://jumpto.cc/html-template).
 
-	The project should look like this:
+	Le projet devrait apparaître comme ceci :
 
-	![screenshot](images/recipe-starter.png)
+	![Capture d'écran](images/recipe-starter.png)
 
-+ For your list of ingredients, you’re going to use an __unordered list__, using the `<ul>` tag. Go to line 8 of the template and add this HTML, replacing the text in the `<h1>` title with the name of your own recipe:
++ Pour votre liste d'ingrédients, vous allez utiliser une __liste non-ordonnée__, en utilisant la balise `<ul>`. Allez à la ligne 8 du modèle et ajouter le HTML, en remplaçant le texte dans le titre `<h1>` avec le nom de votre propre recette :
 
 ```
-<h1>Banana Milkshake</h1>
+<h1>Milk-shake à la banane</h1>
 
-<h3>Ingredients:</h3>
+<h3>Ingrédients:</h3>
 
 <ul>
 
 </ul>
 ```
 
-+ View your webpage, and you should see your two headings.
++ Visualisez votre page web, et vous devrez voir les deux titres.
 
-![screenshot](images/recipe-headings.png)
+![Capture d'écran](images/recipe-headings.png)
 
-You won’t see your list yet though, because you haven’t added any list items to it!
+Vous ne voyez pas de liste encore, car vous n'avez pas ajouté d'éléments à votre liste !
 
-+ The next step is to add list items into your list, by using the `<li>` tag. Add the following code inside your `<ul>` tag:
-
-```
-<li>1 banana</li>
-```
-![screenshot](images/recipe-ul.png)
-
-As your list is unordered, there are no numbers next to the list items, just bullet points.
-
-##Challenge: More ingredients {.challenge}
-Can you add all of the ingredients for __your__ recipe?
-
-Your webpage should look something like this:
-
-![screenshot](images/recipe-more-ingredients.png)
-
-## Save Your Project {.save}
-
-# Step 3: Method { .activity }
-
-Next, let’s explain how to make your recipe.
-
-## Activity Checklist { .check}
-
-+ You’re going to use another list to write your method, but this time you’ll be using an __ordered list__, by using the `<ol>` tag.
-
-An ordered list is a numbered list, which you should use when the order of the steps is important.
-
-Add this code underneath your ingredients list, making sure that it’s still inside your `<body>` tag:
++ La prochaine étape est d'ajouter des éléments à votre liste, en utilisant la balise `<li>`. Ajoutez le code suivant à l'intérieur de votre balise `<ul>` :
 
 ```
-<h3>Method:</h3>
+<li>1 banane</li>
+```
+![Capture d'écran](images/recipe-ul.png)
+
+Puisque votre liste est de type "non-ordonnée", il n'y a pas de numéro à coté de chaque élément, plutôt des points.
+
+## Défi : Plus d'ingrédients {.challenge}
+Pouvez-vous ajouter tous les ingrédients de __votre__ recette ?
+
+Votre page web devrait ressembler à ceci :
+
+![Capture d'écran](images/recipe-more-ingredients.png)
+
+## Sauvegarder votre projet {.save}
+
+# Étape 3: Mode d'emploi { .activity }
+
+Ensuite, expliquons comment faire votre recette.
+
+## Liste de contrôle d'Activité { .check}
+
++ Vous allez utiliser une autre liste pour écrire votre méthode, mais cette fois-ci vous allez utiliser une __list ordonnée__, en employant la balise `<ol>`.
+
+Une liste ordonnée est une liste numérotée, que vous devrez utiliser quand l'ordre des étapes est indispensable.
+
+Ajouter le code suivant en-dessous de la liste des ingrédients, en s'assurant que c'est toujours à l'intérieur des balises `<body>` :
+
+```
+<h3>Mode d'emploi</h3>
 
 <ol>
 
 </ol>
 ```
 
-![screenshot](images/recipe-method.png)
+![Capture d'écran](images/recipe-method.png)
 
-+ Now you just need to add list items into your new ordered list:
++ Maintenant vous avez juste à ajouter des éléments à votre nouvelle liste ordonnée :
 
 ```
-<li>Peel the banana and add to a blender</li>
+<li>Ôter la peau et mettre la banane dans le mixer</li>
 ```
 
-![screenshot](images/recipe-ol.png)
+![Capture d'écran](images/recipe-ol.png)
 
-Notice that the list items are automatically numbered!
+Remarquer comment les éléments de la liste sont numérotés de façon automatique !
 
-##Challenge: More steps {.challenge}
-Can you add all of the steps for making __your__ recipe?
+## Défi : D'autres étapes {.challenge}
+Pouvez-vous ajouter toutes les étapes pour faire __votre__ recette ?
 
-Your method should look something like this:
+Votre méthode devrait ressembler à ceci :
 
-![screenshot](images/recipe-more-method.png)
+![Capture d'écran](images/recipe-more-method.png)
 
-## Save Your Project {.save}
+## Sauvegarder votre projet {.save}
 
-# Step 4: Colours! { .activity}
+# Étape 4: Des Couleurs ! { .activity}
 
-Let’s add some colour to your recipe webpage.
+Ajoutons des couleurs à notre page de recette.
 
-## Activity Checklist { .check}
+## Liste de contrôle d'Activité { .check}
 
-+ You’ve already learnt how to add coloured text to a webpage. Add this code inside your `style.css` file, to make all of the text in the website body blue:
++ Vous avez déjà appris comment ajouter du texte de couleur dans une page web. Ajouter le code suivant dans votre fichier `style.css`, afin de transformer en bleu tout le text du corp du site en bleu :
 
 ```
 body {
@@ -127,62 +127,62 @@ body {
 }
 ```
 
-![screenshot](images/recipe-blue.png)
+![Capture d'écran](images/recipe-blue.png)
 
-+ Your browser knows colours like `blue`, `yellow` and even `lightgreen`, but did you know that your browser actually knows the __names__ of over 500 different colours?
++ Votre navigateur connait des couleurs comme `blue` (*bleu*), `yellow` (*jaune*) et même `lightgreen` (*vert clair*), mais saviez-vous que votre navigateur connait les __noms__ de plus de 500 couleurs différentes ?
 
-There’s a list of all the colour names you can use: [jumpto.cc/colours](http://jumpto.cc/colours), which includes colour names like `tomato`, `firebrick` and `peachpuff`.
+Il y a une liste de tous les noms des couleurs que vous pouvez utiliser : [jumpto.cc/colours](http://jumpto.cc/colours), y compris des noms comme `tomato`, `firebrick` et `peachpuff`.
 
-Change the text colour from `blue` to `tomato`.
+Changer la couleur du texte de `blue` en `tomato`.
 
-![screenshot](images/recipe-tomato.png)
+![Capture d'écran](images/recipe-tomato.png)
 
-+ Your browser knows the names of 140 colours, but actually knows the __colour values__ of more than 16 million colours!
++ Votre navigateur connait les noms de 140 couleurs, mais en réalité connait les __valeurs de couleur__ de plus de 16 millions de couleurs !
 
 
-To tell the browser which colour to display, you just need to let it know how much red, green and blue to use.
+Pour dire au navigateur la couleur à afficher, vous avez besoin simplement de lui indiquer combien de rouge, vert et bleu à utiliser.
 
-The amounts of red, green and blue are written as a number between `0` and `255`.
+Les quantités de rouge, vert et bleu sont écrites comme des chiffres entre `0` et `255`.
 
-![screenshot](images/recipe-rgb-img.png)
+![Capture d'écran](images/recipe-rgb-img.png)
 
-Add this code to the CSS for the body of the webpage, to display a light yellow background:
+Ajouter le code suivant au fichier CSS pour le corp de la page web, pour afficher un fond jaune clair :
 
 ```
 background: rgb(250,250,210);
 ```
 
-![screenshot](images/recipe-rgb.png)
+![Capture d'écran](images/recipe-rgb.png)
 
-+ If you prefer, you can tell the browser which colour to display by using a hexadecimal code (or __hex code__). This works in a similar way to the `rgb()` code above, except that hex codes always start with a `#`, and use hexadecimal ‘numbers’ between `00` and `ff` for the amount of red, green and blue.
++ Si vous préférez, vous pouvez dire au navigateur quelle couleur afficher en utilisant un code hexadécimal (ou __code hex__). Ça fonctionne presque de la même façon que le code `rgb()` ci-dessus, sauf que les codes hex commencent toujours avec un `#`, et utilisent des ‘nombres’ hexadécimaux entre `00` et `ff` pour la quantité de rouge, vert et bleu.
 
-![screenshot](images/recipe-hex-img.png)
+![Capture d'écran](images/recipe-hex-img.png)
 
-Replace the `rgb()` code in your CSS with this hex code:
+Remplacer le code `rgb()` dans votre CSS avec le code hex suivant :
 
 ```
 background: #fafad2;
 ```
 
-![screenshot](images/recipe-hex.png)
+![Capture d'écran](images/recipe-hex.png)
 
-You should see the same light yellow as before!
+Vous devriez voir la même couleur jaune clair qu'avant !
 
-## Save Your Project {.save}
+## Sauvegarder votre projet {.save}
 
-# Step 5: Finishing touches { .activity}
+# Étape 5: Dernières retouches  { .activity}
 
-Let’s add a little more HTML and CSS to improve your webpage.
+Ajoutons un peu plus de HTML et CSS afin d'améliorer votre page web.
 
-## Activity Checklist { .check}
+## Liste de contrôle d'Activité { .check}
 
-+ You can add a horizontal line at the end of your recipe, by using the <hr> tag.
++ Vous pouvez ajouter une ligne horizontale à la fin de votre recette, en utilisant la balise <hr>.
 
-![screenshot](images/recipe-hr.png)
+![Capture d'écran](images/recipe-hr.png)
 
-Notice that this tag doesn’t have an end tag, just like the `<img>` tag.
+À noter que cette balise n'a pas besoin d'une balise de clôture, tout comme la balise `<img>`.
 
-+ The line you’ve just added doesn’t match the style of the rest of your webpage. Let’s fix that by adding some CSS code:
++ La ligne que vous venez d'ajouter n'est pas dans le même style que le reste de votre page web. Nous pouvons régler ça en ajoutant du code CSS :
 
 ```
 hr {
@@ -192,9 +192,9 @@ hr {
 }
 ```
 
-![screenshot](images/recipe-hr-css.png)
+![Capture d'écran](images/recipe-hr-css.png)
 
-+ You can even change how your bullet points look with this CSS code:
++ Vous pouvez même changer le style de vos puces avec ce code CSS :
 
 ```
 ul {
@@ -202,47 +202,47 @@ ul {
 }
 ```
 
-![screenshot](images/recipe-ul-css.png)
+![Capture d'écran](images/recipe-ul-css.png)
 
-##Challenge: More colours! {.challenge}
-Change the colours in your code by using colour names, `rgb()` values and hex codes. There’s a list of loads of colours at <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>, or you can go to <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> and create your own colours!
+## Défi : Plus de couleurs ! {.challenge}
+Changer les couleurs dans votre code utilisant les noms, valeurs `rgb()` et code hex. Il y a une liste avec beaucoup de couleurs disponible via <a href="http://jumpto.cc/colours" target="_blank">jumpto.cc/colours</a>, ou vous pouvez aller à <a href="http://jumpto.cc/colour-picker" target="_blank">jumpto.cc/colour-picker</a> et créer vos propres couleurs !
 
-Here are some example colours:
+Voici quelques exemples de couleurs :
 
-+ Red can be written as:
-	+ `red` (obviously!)
-	+ `rgb(255,0,0)` (loads of red, no green and no blue)
++ Rouge peut être écrit comme : :
+	+ `red`
+	+ `rgb(255,0,0)` (plein de rouge, pas de vert et pas de bleu)
 	+ `#ff0000`
 
-+ Olive can be written as:
++ Olive peut être écrit comme :
 	+ `olive`
-	+ `rgb(128, 128, 0)` (a bit of red and green, and no blue)
+	+ `rgb(128, 128, 0)` (un peu de rouge et vert, et pas de bleu)
 	+ `#808000`
 
-Try to make sure that the colours you use match your recipe!
+Essayer de vous assurer que les couleurs que vous utilisez correspondent à votre recette !
 
-## Save Your Project {.save}
+## Sauvegarder votre projet {.save}
 
-##Challenge: Reviews {.challenge}
-Ask a few of your friends to leave a review for your recipe. You’ll need to make another list to do this.
+## Défi : Avis {.challenge}
+Demandez à quelques amis de laisser leurs avis sur votre recette. Vous aurez besoin de créer une autre liste pour le faire.
 
-![screenshot](images/recipe-reviews.png)
+![Capture d'écran](images/recipe-reviews.png)
 
-## Save Your Project {.save}
+## Sauvegarder votre projet {.save}
 
-##Challenge: More styling {.challenge}
-Can you add an image into your webpage? Or change the font? Here’s how your webpage could look:
+## Défi : Plus de styles {.challenge}
+Pouvez-vous insérer une image dans votre page web ? Ou changer la police ? Voilà à quoi votre page pourrait ressembler :
 
-![screenshot](images/recipe-final.png)
+![Capture d'écran](images/recipe-final.png)
 
-Here’s some code that will help you:
+Voici un peu de code qui vous aidera :
 
 ```
 font-family: Arial / Comic Sans MS / Courier / Impact / Tahoma;
 font-size: 12pt;
 font-weight: bold;
 
-<img src="image-link-goes-here">
+<img src="insérer-lien-vers-image-ici">
 ```
 
-## Save Your Project {.save}
+## Sauvegarder votre projet {.save}
